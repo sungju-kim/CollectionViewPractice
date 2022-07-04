@@ -13,6 +13,8 @@
 		6CE970832872D39800AD8C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE970822872D39800AD8C63 /* Assets.xcassets */; };
 		6CE970862872D39800AD8C63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE970842872D39800AD8C63 /* LaunchScreen.storyboard */; };
 		6CE9708F2872DD9B00AD8C63 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6CE9708E2872DD9B00AD8C63 /* SnapKit */; };
+		6CE970912872DEF000AD8C63 /* LayoutFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE970902872DEF000AD8C63 /* LayoutFactory.swift */; };
+		6CE970932872DF5C00AD8C63 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE970922872DF5C00AD8C63 /* MyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		6CE970822872D39800AD8C63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CE970852872D39800AD8C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CE970872872D39800AD8C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE970902872DEF000AD8C63 /* LayoutFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutFactory.swift; sourceTree = "<group>"; };
+		6CE970922872DF5C00AD8C63 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +63,11 @@
 				6CE970792872D39600AD8C63 /* AppDelegate.swift */,
 				6CE9707B2872D39600AD8C63 /* SceneDelegate.swift */,
 				6CE9707D2872D39600AD8C63 /* ViewController.swift */,
+				6CE970922872DF5C00AD8C63 /* MyCell.swift */,
 				6CE970822872D39800AD8C63 /* Assets.xcassets */,
 				6CE970842872D39800AD8C63 /* LaunchScreen.storyboard */,
 				6CE970872872D39800AD8C63 /* Info.plist */,
+				6CE970902872DEF000AD8C63 /* LayoutFactory.swift */,
 			);
 			path = CollectionViewPractice;
 			sourceTree = "<group>";
@@ -142,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CE970912872DEF000AD8C63 /* LayoutFactory.swift in Sources */,
+				6CE970932872DF5C00AD8C63 /* MyCell.swift in Sources */,
 				6CE9707E2872D39600AD8C63 /* ViewController.swift in Sources */,
 				6CE9707A2872D39600AD8C63 /* AppDelegate.swift in Sources */,
 				6CE9707C2872D39600AD8C63 /* SceneDelegate.swift in Sources */,
