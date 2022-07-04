@@ -8,11 +8,13 @@
 import UIKit
 import SnapKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
-    private let collectionView: UICollectionView = {
+    private lazy var dataSource: UICollectionViewDataSource = NormalDataSource()
+    private lazy var collectionView: UICollectionView = {
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: LayoutFactory.create())
         collectionView.register(MyCell.self, forCellWithReuseIdentifier: MyCell.identifier)
+        collectionView.dataSource = self.dataSource
         collectionView.backgroundColor = .blue
         return collectionView
     }()
@@ -22,8 +24,6 @@ class ViewController: UIViewController {
 
         layoutCollectionView()
     }
-
-
 }
 
 // MARK: - Layout Section
